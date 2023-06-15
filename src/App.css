@@ -86,6 +86,7 @@ a:hover {
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
+  position: relative !important;
   width: 100% !important;
   height: 100vh !important;
   background-color: transparent!important;
@@ -107,6 +108,7 @@ a:hover {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  position: relative !important;
   width: 100% !important;
   height: 10vh !important;
   background-color: rgb(6, 115, 204);
@@ -155,14 +157,6 @@ a:hover {
   font-size: 20px;;
   margin-top: 20px;
 }
-
-/* .b1{
-  background: #0c60ce;
-}
-
-.b1:hover{
-  background-color: rgb(250, 253, 253);
-} */
 
 .b1{
   border: none;
@@ -271,8 +265,72 @@ a:hover {
     margin-bottom: 50px;
   }
 
-@media screen and (max-width: 768px) {
-  .about-section{
-    top:100px !important;
+  .nav-section:hover,
+  #menu:hover{
+    color: #000000;
   }
+
+@media screen and (max-width: 768px) {
+
+  .arrow{
+    margin-top: -250px;
+  }
+  .about-section > div{
+    width: 100% !important;
+  }
+
+   #name{
+    font-size: 30px !important;
+   }
+
+   #txt2{
+    font-size: 20px !important;
+   }
+
+   #txt3, #list{
+    font-size: 15px !important;
+   }
 }
+
+/* @media screen and (max-width: 450px){
+
+  .about-section > div{
+    top: 200px !important;
+    width: 100% !important;
+  }
+
+  .about-section{
+    top: 200px !important;
+    width: 100% !important;
+  }
+
+  .contact-section{
+    top: 800px !important;
+  }
+
+  #name{
+    font-size: 20px !important;
+   }
+
+   #txt2{
+    font-size: 15px !important;
+   }
+
+   #txt3, #list{
+    font-size: 10px !important;
+   }
+  #txt{
+    font-size: 20px !important;
+  }
+   #rtx{
+    font-size: 15px !important;
+   }
+
+   .linked{
+    font-size: 10px;
+   }
+
+   .footer{
+    top: 800px;
+   }
+} */

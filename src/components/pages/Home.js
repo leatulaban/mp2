@@ -3,6 +3,7 @@ import { Box, Typography } from '@mui/material';
 import Particle from '../Particle';
 import ReactRotatingText from 'react-rotating-text';
 import SocialFollows from '../SocialFollows';
+import './style.scss';
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
     
     <Box id="Home">
       <Box className="home-section">
-      <Typography variant="h4" align="center" id="txt">
+      <Typography id="txt" variant="h4" align="center" >
         Hello, I'm Lea!
       </Typography>
       <Typography variant="h3" align="center" id="rtxt">

@@ -45,7 +45,7 @@ export default function About() {
           },
         }}
       />
-      <Card
+      <Card className="card"
         orientation="horizontal"
         sx={{
           width: '70%',

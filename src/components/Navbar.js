@@ -73,7 +73,7 @@ function Navbar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }} onClick={() => scrollTop(item)}>
+              <Button id="menu" key={item} sx={{ color: '#fff' }} onClick={() => scrollTop(item)}>
                 {item}
                 {/* <Link to={`/${item}`}>
                       {item}
