@@ -5,8 +5,6 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
-  transition: all 0.2s linear;
 }
 .App {
   font-size: 62.5%;
@@ -117,12 +115,15 @@ a:hover {
 
 #dp{
   display:flex !important;
-  height: 270px  !important;
-  width: 250px !important;
+  height: 80%  !important;
+  width: 50% !important;
+  top: 100px;
   border-radius: 20px !important;
   margin-top: 20px !important;
   margin-left: 20px !important;
 }
+
+
 #cv{
   display:flex !important;
   height: 850px  !important;
@@ -145,35 +146,133 @@ a:hover {
 
 #txt2{
   font-family: 'Poppins', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 50px;
 }
 
 #txt3{
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;;
   margin-top: 20px;
 }
 
-.b1{
+/* .b1{
   background: #0c60ce;
 }
 
 .b1:hover{
   background-color: rgb(250, 253, 253);
+} */
+
+.b1{
+  border: none;
+  background: #06a8f3 !important;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  }
+  .b1:hover {
+  color: #000000 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+  }
+
+.discord:hover{
+  color:#000000 !important;
+  transition: all 0.65s;
+  transform: rotateY(360deg);
 }
 
-.linkedin-social:hover{
-  color:#0c60ce !important;
+.linked:hover{
+  color:#000000 !important;
+  transition: all 0.65s;
+  transform: rotateY(360deg);
 }
+
+.fb:hover{
+  color:#000000 !important;
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}
+
+.twitter:hover{
+  color:#000000 !important;
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}
+
+.insta:hover{
+  color:#000000 !important;
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}
+
+.github:hover{
+  color:#000000 !important;
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}
+
 .cardAspect > div{
   background: #fff !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .arrow{
   display: flex;
-  
   align-items: center !important;
   justify-content: center !important;
   align-items: center !important;
+  top: 300px !important;
+  position: relative;
+}
+
+.barrow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .barrow:hover { 
+  transform: scale(1.1); 
+  color: #000000 !important;
+  }
+
+  #txt2{
+    color: #54b3d6;
+  }
+
+  #name {
+    margin-top: 50px;
+    top: 100px !important;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #cf1186;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+ #name:hover {
+    color: #fff;
+    box-shadow: inset 500px 0 0 0 #cf1186;
+  }
+
+  #list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+@media screen and (max-width: 768px) {
+  .about-section{
+    top:100px !important;
+  }
 }

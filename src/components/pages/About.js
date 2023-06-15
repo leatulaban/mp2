@@ -4,6 +4,7 @@ import Box from '@mui/joy/Box';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import lea from './lg.png';
+import { colors } from '@mui/material';
 
 export default function About() {
   return (
@@ -77,11 +78,23 @@ export default function About() {
           About Me
           </div>
           <div id="txt3">
-        My name is Lea, mother of a Tyrannosaurus rex. I love learning new things, 
+        My name is Lea, mother of a Tyrannosaurus rex baby. I love learning new things, 
         discover new places and meet new faces. 
         I am a designer and Full-stack web developer based on earth. 
         I can help you with your brands. *wink*
           </div>
+
+          <div id='txt2'>
+            Skills & Expertise
+            </div>
+            <div id="list">
+              <ul>
+                <li>Optimized coding skills & testing</li>
+                <li>Time management skills</li>
+                <li>Interpersonal skills</li>
+                <li>Constantly learning and staying update</li>
+              </ul>
+              </div>
           
         </CardContent>
       </Card>
