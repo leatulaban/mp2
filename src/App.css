@@ -1,38 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
 .App {
-  text-align: center;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-section {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 94vh !important;
+  background: transparent !important;
+
+
+#txt{
+  font-family: 'Righteous', cursive !important;
+  font-size: 100px !important;
+  color: #f7f7f7 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#rtxt{
+  font-family: 'Jost', sans-serif !important;
+  font-size: 50px !important;
+  color: #f7f7f7 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-container {
+  display: inline-block !important;
+  padding: 50px !important;
+  margin: 0 1rem;
+  transition: transform 250ms !important;
+}
+
+.social-container:hover .linkedin-social{
+  color: blue;
+  transform:skew();
+}
+
+a:hover {
+  color: green !important;
+  text-decoration: underline overline;
+}
+
+.down{
+  justify-content: center !important;
+  padding: 50px !important;
+  position: absolute;
+  bottom: 0px;
+}
+}
+.nav-section{
+  background: transparent !important;
+}
+
+.nf-section{
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.about-section {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: rgba(255, 255, 255, 0.575)!important;
+}
+
+.contact-section {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: transparent!important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-body{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 70% !important;
+  height: 80vh !important;
+  background-color: rgb(255, 255, 255)!important;
+  border-radius: 20px !important;
+}
+
+.footer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 10vh !important;
+  background-color: rgb(6, 115, 204);
+  font-family: 'Poppins', sans-serif;
+}
+
+#dp{
+  display:flex !important;
+  height: 270px  !important;
+  width: 250px !important;
+  border-radius: 20px !important;
+  margin-top: 20px !important;
+  margin-left: 20px !important;
+}
+#cv{
+  display:flex !important;
+  height: 850px  !important;
+  width: 750px !important;
+  border-radius: 20px !important;
+  margin-top: 20px !important;
+  margin-left: 20px !important;
+}
+
+#name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+}
+
+#txt1{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px !important;
+  color: rgb(66, 66, 66);
+}
+
+#txt2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+#txt3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.b1{
+  background: #0c60ce;
+}
+
+.b1:hover{
+  background-color: rgb(250, 253, 253);
+}
+
+.linkedin-social:hover{
+  color:#0c60ce !important;
+}
+.cardAspect > div{
+  background: #fff !important;
+}
+
+.arrow{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+  align-items: center !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
