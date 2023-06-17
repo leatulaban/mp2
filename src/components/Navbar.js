@@ -13,6 +13,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import lea from './fav.PNG';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact', ];
@@ -27,8 +28,7 @@ function Navbar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle}>
-
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography id="title" variant="h6" sx={{ my: 2 }}>
         Lea Tulaban
       </Typography>
       <List>
@@ -64,6 +64,7 @@ function Navbar(props) {
           >
             <MenuIcon />
           </IconButton>
+          <img src={lea} alt="logo" id="logo"></img>
           <Typography
             variant="h6"
             component="div"

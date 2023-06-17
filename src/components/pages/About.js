@@ -14,7 +14,7 @@ export default function About() {
         position: 'relative',
       }}
     >
-      <Box
+      <Box className="about-card"
         sx={{
           position: 'absolute',
           display: 'block',
